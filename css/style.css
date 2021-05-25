@@ -1,9 +1,54 @@
+/* reset */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
-    background-color: #f6f8f9 ;
+
+/* generics */
+.bg-white{
+    background-color: white;
 }
+
+body{
+    background-color: #eee ;
+}
+
+.container{
+    width: 70%;
+    height: 800px;
+    margin:0 auto;
+    margin-top: 70px;
+    
+}
+
+
+/* Intestazione */
+header{
+    height:100px;
+    line-height: 100px;
+    vertical-align:middle;
+
+}
+
+#logo{
+    display: inline-block;
+    height: 60px;
+     
+    margin-left: 40px;
+
+}
+
+header > h1 {
+    display: inline;
+    line-height: 100px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    
+    
+}
+
+

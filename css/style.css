@@ -54,23 +54,24 @@ header{
     height:100px;
     line-height: 100px;
     vertical-align:middle;
-
+    padding:   
 }
 
 #logo{
     display: inline-block;
-    height: 60px;
-     
-    margin-left: 40px;
+    height: 50px;
+    vertical-align:middle;
+    margin-left: 20px; 
+    
 
 }
 
 header > h1 {
     display: inline;
     line-height: 100px;
-    
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 900;
+    vertical-align: middle;
 
     
 }
@@ -102,9 +103,11 @@ header > h1 {
     margin: 20px 20px;
 }
 ul{
-    padding-inline-start: 38px;
+    padding-inline-start: 10px;
     font-size: 20px;
     font-style: normal;
+    list-style-type: none;
+    list-style-image: url();
     
 }
 li{
@@ -122,3 +125,15 @@ p {
     border-radius: 10px;
     color: white;
     }
+
+
+.check{
+    display:inline-block;
+    color:green;
+    border:1px solid green; 
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    padding-left:5px;
+    font-weight: bold;
+}

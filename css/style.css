@@ -47,8 +47,33 @@ header > h1 {
     font-family: 'Comfortaa', cursive;
     font-size: 50px;
     font-weight: bold;
-    
+
     
 }
 
+/* button section */
+.button-style{
+    padding:10px;
+    border: 1px solid grey;
+    border-radius:10px;
+    margin-bottom: 10px;
+     font-weight: bold;
+}
+
+.button-section{
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 20px;  
+}
+
+#add-task{
+    background-color: #47adf1;
+    color: white;
+
+}
+
+#add-section{
+    color: grey;
+
+}
 

@@ -4,12 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Comfortaa'; 
+    font-family: 'Comfortaa', cursive;
     
 }
 
 
 /* generics */
+
 .bg-white{
     background-color: white;
 }
@@ -49,12 +50,25 @@ body{
     background-color:#b0c926 ;
 }
 
+.grey-font{
+    color: grey;
+}
+
 /* Intestazione */
+
 header{
     height:100px;
     vertical-align:middle;   
 }
+#logo-text{
+    display: inline-block;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 900;
+    vertical-align: middle;
+    font-weight: 700;
 
+}
 #logo{
     display: inline-block;
     height: 50px;
@@ -62,16 +76,6 @@ header{
     margin-left: 20px; 
     
 
-}
-
-header > h1 {
-    display: inline;
-    line-height: 100px;
-    font-size: 50px;
-    font-weight: 900;
-    vertical-align: middle;
-
-    
 }
 
 /* button section */
@@ -91,12 +95,9 @@ header > h1 {
 }
 
 
-#add-section{
-    color: grey;
-
-}
 
 /* list section */
+
 .list{
     padding: 15px;
     margin: 20px 20px;
